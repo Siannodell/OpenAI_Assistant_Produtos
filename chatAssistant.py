@@ -122,7 +122,7 @@ def process_message_with_citations(message):
     return full_response
 
 # Interface do chat
-st.subheader("Análise de Produtos")
+st.subheader("ANÁLISE DE PRODUTOS")
 #st.write("Este chat usa a API da OpenAI para gerar respostas.")
 
 # Só vai mostrar o chat se for iniciado
