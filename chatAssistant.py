@@ -58,7 +58,7 @@ api_key = st.secrets.OpenAIAPI.openai_api_key
 if api_key:
     openai.api_key = api_key
 
-st.sidebar.write("<a style='color: white; text-decoration: none; position: absolute; top: -80px;' href='https://aisasschleba.netlify.app/' target='_self' id='voltar'><< VOLTAR</a><br><a style='color:white'  href='https://www.google.com.br/' id='baixarArquivo'>[Baixe o arquivo para fazer a análise]</a>", unsafe_allow_html=True)
+st.sidebar.write("<a style='color:white'  href='https://www.google.com.br/' id='baixarArquivo'>[Baixe o arquivo para fazer a análise]</a>", unsafe_allow_html=True)
 
 uploaded_file = st.sidebar.file_uploader("Envie um arquivo", key="file_uploader")
 
