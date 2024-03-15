@@ -60,11 +60,16 @@ def convert_xlsx_to_pdf(input_path, output_path):
 
 
 perguntas = [
-    "Qual é o valor médio de compra mais frequente?",
-    "Quais são as faixas etárias mais comuns entre os clientes?",
-    "Qual é o estado (UF) com a maior quantidade de clientes ativos?",
-    "Existe alguma relação entre o gênero dos clientes e a recência de compra?",
-    "Qual é a cidade com o maior número de clientes novos?"
+    "Qual é a distribuição de pedidos ao longo dos anos e meses?",
+    "Quais são os produtos mais pedidos e em quais categorias eles se encaixam?",
+    "Existe alguma diferença significativa na quantidade de pedidos entre os diferentes dias da semana?",
+    "Qual a distribuição de gênero e faixa etária dos clientes que fizeram pedidos?"
+    "Quais são as cidades e unidades federativas com mais pedidos?"
+    "Qual é o valor médio dos pedidos aprovados em comparação com os pedidos não aprovados?"
+    "Qual é a distribuição das marcas mais populares nos pedidos?"
+    "Existe alguma sazonalidade nas compras de acordo com o mês ou semana do ano?"
+    "É possível identificar alguma tendência ou padrão nos valores dos pedidos?"
+    "Existe alguma correlação entre a quantidade de itens pedidos e o valor dos pedidos aprovados?"
 ]
 
 pergunta_ = ""
